@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1840 940" width="1840" height="940"><defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#304565"/></marker>
+<marker id="msg" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M1,1 L8,4.5 L1,8" stroke="#8755B4" stroke-width="2" fill="none"/></marker>
+<marker id="dataarr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L7,4 L0,8" stroke="#887A4A" stroke-width="2" fill="none"/></marker></defs>
+<rect width="1840" height="940" fill="#F7F9FD"/>
+<rect x="30" y="28" width="1770" height="185" fill="#FFFFFF" stroke="#566B9A" stroke-width="3"/>
+<rect x="30" y="28" width="55" height="185" fill="#EBF0FD" stroke="#566B9A" stroke-width="2"/>
+<text transform="translate(64 120.5) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#283B65">Schulfirma</text>
+<rect x="30" y="265" width="1770" height="610" fill="#FFFFFF" stroke="#566B9A" stroke-width="3"/>
+<rect x="30" y="265" width="55" height="610" fill="#EBF0FD" stroke="#566B9A" stroke-width="2"/>
+<text transform="translate(64 570.0) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#283B65">Druckerei</text>
+<rect x="85" y="265" width="1715" height="160" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 345.0) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Kundenservice</text>
+<rect x="85" y="425" width="1715" height="190" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 520.0) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Design</text>
+<rect x="85" y="615" width="1715" height="135" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 682.5) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Lager</text>
+<rect x="85" y="750" width="1715" height="125" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 812.5) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Produktion</text>
+<path d="M 186,147 L 196,320" fill="none" stroke="#8755B4" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#msg)"/>
+<circle cx="186" cy="147" r="4.5" fill="white" stroke="#8755B4" stroke-width="2"/>
+<text x="191" y="226" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#8755B4" stroke="white" stroke-width="4" paint-order="stroke">Bestellung</text>
+<path d="M 222,346 L 308,346 L 308,520 L 395,520" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 547,520 L 640,520" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 704,520 L 757,520 L 757,352 L 810,352" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<text x="757" y="428" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#304565" stroke="white" stroke-width="4" paint-order="stroke">Nein</text>
+<path d="M 836,326 L 686,149" fill="none" stroke="#8755B4" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#msg)"/>
+<circle cx="836" cy="326" r="4.5" fill="white" stroke="#8755B4" stroke-width="2"/>
+<text x="761" y="230" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#8755B4" stroke="white" stroke-width="4" paint-order="stroke">Korrekturwunsch</text>
+<path d="M 712,123 L 915,123" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 941,149 L 1076,324" fill="none" stroke="#8755B4" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#msg)"/>
+<circle cx="941" cy="149" r="4.5" fill="white" stroke="#8755B4" stroke-width="2"/>
+<text x="1008" y="228" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#8755B4" stroke="white" stroke-width="4" paint-order="stroke">korrigierte Datei</text>
+<path d="M 862,352 L 1050,350" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1076,376 L 1140,420 L 475,420 L 471,552" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<text x="774" y="456" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#304565" stroke="white" stroke-width="4" paint-order="stroke">neu prüfen</text>
+<path d="M 704,520 L 930,522" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<text x="817" y="513" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#304565" stroke="white" stroke-width="4" paint-order="stroke">Ja</text>
+<path d="M 994,522 L 1120,522" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 994,522 L 1057,522 L 1057,704 L 1120,704" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1272,522 L 1400,569" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1272,704 L 1336,704 L 1336,569 L 1400,569" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1464,569 L 1487,569 L 1487,820 L 1510,820" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1662,820 L 1646,820 L 1646,342 L 1630,342" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1656,316 L 1636,149" fill="none" stroke="#8755B4" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#msg)"/>
+<circle cx="1656" cy="316" r="4.5" fill="white" stroke="#8755B4" stroke-width="2"/>
+<text x="1646" y="224" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#8755B4" stroke="white" stroke-width="4" paint-order="stroke">Freigabe</text>
+<path d="M 117,121 L 160,121" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 212,121 L 660,123" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 712,123 L 915,123" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 967,123 L 1610,123" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1662,123 L 1760,123" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 127,346 L 170,346" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1682,342 L 1760,342" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<circle cx="186.0" cy="121.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="186.0" cy="121.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="171.0" y="111.0" width="30" height="20" fill="#275E8C" stroke="#275E8C" stroke-width="1.5"/>
+<path d="M 171.0 111.0 L 186.0 124.0 L 201.0 111.0" fill="none" stroke="white" stroke-width="2"/>
+<text x="186.0" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestellung senden</text>
+<circle cx="686.0" cy="123.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="686.0" cy="123.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="671.0" y="113.0" width="30" height="20" fill="white" stroke="#275E8C" stroke-width="2"/><path d="M 671.0 113.0 L 686.0 126.0 L 701.0 113.0" fill="none" stroke="#275E8C" stroke-width="2"/>
+<text x="686.0" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Korrekturwunsch empfangen</text>
+<circle cx="941.0" cy="123.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="941.0" cy="123.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="926.0" y="113.0" width="30" height="20" fill="#275E8C" stroke="#275E8C" stroke-width="1.5"/>
+<path d="M 926.0 113.0 L 941.0 126.0 L 956.0 113.0" fill="none" stroke="white" stroke-width="2"/>
+<text x="941.0" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Neue Datei senden</text>
+<circle cx="1636.0" cy="123.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="1636.0" cy="123.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="1621.0" y="113.0" width="30" height="20" fill="white" stroke="#275E8C" stroke-width="2"/><path d="M 1621.0 113.0 L 1636.0 126.0 L 1651.0 113.0" fill="none" stroke="#275E8C" stroke-width="2"/>
+<text x="1636.0" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Freigabe erhalten</text>
+<circle cx="196.0" cy="346.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="196.0" cy="346.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="181.0" y="336.0" width="30" height="20" fill="white" stroke="#275E8C" stroke-width="2"/><path d="M 181.0 336.0 L 196.0 349.0 L 211.0 336.0" fill="none" stroke="#275E8C" stroke-width="2"/>
+<text x="196.0" y="391" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestellung empfangen</text>
+<rect x="395" y="487" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="471.0" y="524" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Druckdatei prüfen</text>
+<path d="M672.0 490 L702 520.0 L672.0 550 L642 520.0Z" fill="#FFF2D7" stroke="#987134" stroke-width="2.4"/>
+<text x="672.0" y="532.0" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold" fill="#303D58">X</text>
+<text x="672.0" y="571" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">geeignet?</text>
+<circle cx="836.0" cy="352.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="836.0" cy="352.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="821.0" y="342.0" width="30" height="20" fill="#275E8C" stroke="#275E8C" stroke-width="1.5"/>
+<path d="M 821.0 342.0 L 836.0 355.0 L 851.0 342.0" fill="none" stroke="white" stroke-width="2"/>
+<text x="836.0" y="397" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Korrektur anfordern</text>
+<circle cx="1076.0" cy="350.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="1076.0" cy="350.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="1061.0" y="340.0" width="30" height="20" fill="white" stroke="#275E8C" stroke-width="2"/><path d="M 1061.0 340.0 L 1076.0 353.0 L 1091.0 340.0" fill="none" stroke="#275E8C" stroke-width="2"/>
+<text x="1076.0" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Neue Datei erhalten</text>
+<path d="M962.0 492 L992 522.0 L962.0 552 L932 522.0Z" fill="#E7F9EC" stroke="#31885D" stroke-width="2.4"/>
+<text x="962.0" y="534.0" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold" fill="#303D58">+</text>
+<rect x="1120" y="489" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="1196.0" y="526" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Druck vorbereiten</text>
+<rect x="1120" y="672" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="1196.0" y="701" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Material</text>
+<text x="1196.0" y="718" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">bereitstellen</text>
+<path d="M1432.0 539 L1462 569.0 L1432.0 599 L1402 569.0Z" fill="#E7F9EC" stroke="#31885D" stroke-width="2.4"/>
+<text x="1432.0" y="581.0" text-anchor="middle" font-family="Arial" font-size="38" font-weight="bold" fill="#303D58">+</text>
+<rect x="1510" y="787" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="1586.0" y="824" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Produktion starten</text>
+<circle cx="1656.0" cy="342.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="1656.0" cy="342.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="1641.0" y="332.0" width="30" height="20" fill="#275E8C" stroke="#275E8C" stroke-width="1.5"/>
+<path d="M 1641.0 332.0 L 1656.0 345.0 L 1671.0 332.0" fill="none" stroke="white" stroke-width="2"/>
+<text x="1656.0" y="387" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Freigabe senden</text>
+<circle cx="91.0" cy="121.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<text x="91.0" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Auftrag vorbereitet</text>
+<circle cx="101.0" cy="346.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<text x="101.0" y="391" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bearbeitung beginnt</text>
+<circle cx="1786.0" cy="123.0" r="22.0" fill="#FFF1F4" stroke="#A43852" stroke-width="6"/>
+<text x="1786.0" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestätigung erhalten</text>
+<circle cx="1786.0" cy="342.0" r="22.0" fill="#FFF1F4" stroke="#A43852" stroke-width="6"/>
+<text x="1786.0" y="387" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Auftrag gestartet</text>
+</svg>

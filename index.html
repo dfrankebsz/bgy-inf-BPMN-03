@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#141d40">
+  <meta name="description" content="Digitaler interaktiver Lernkurs: BPMN 2.0 · Geschäftsprozesse modellieren für die Klassenstufe 11. Mit Aufgaben, XP, Avatar-Galerie und Lernportfolio.">
+  <title>BPMN-Labor | UE 4 · Geschäftsprozesse</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=ue4">
+  <script type="module" src="app.js?v=ue4"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Hauptinhalt springen</a>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar" aria-label="Kursnavigation">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">◈</div><div><b>BPMN<span>LAB</span></b><small>PROZESS-AKADEMIE</small></div></div>
+      <div class="side-kicker">LERNPFAD</div>
+      <nav id="side-nav"></nav>
+      <div class="side-bottom"><p><span class="dot"></span> BPMN 2.0 · Informatik 11 · UE 4</p><button class="link-btn" data-go="glossar">Begriffslexikon öffnen ↗</button></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <button id="mobile-menu" class="icon-button mobile-menu" aria-label="Navigation öffnen">☰</button>
+        <div class="crumb" id="crumb">LERNPFAD / ÜBERSICHT</div>
+        <div class="top-actions">
+          <div class="xp-pill"><span aria-hidden="true">✦</span> <b id="xp-count">0</b> XP <span class="mini-sep">·</span> <span id="level-text">Level 1</span></div>
+          <button class="user-chip" id="user-button" title="Anmelden oder Konto öffnen"><span id="top-avatar">🧑‍🚀</span><span id="user-name">Gastmodus</span></button>
+        </div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="footer">
+        <p><strong>KI-Nachweis:</strong> Die Konzeption, Gestaltung und technische Überarbeitung dieses Kurses erfolgten am 24.11.2026 unter Nutzung von <strong>ChatGPT (GPT-6)</strong>. Das KI-Werkzeug wurde insbesondere zur Strukturierung von Kursinhalten sowie zur Erstellung und Überarbeitung von HTML und CSS eingesetzt. Einzelne Grafiken wurden ebenfalls KI-gestützt erstellt. Die fachliche und redaktionelle Prüfung sowie die abschließende Auswahl und Anpassung der Inhalte <strong>sind durch die kurserstellende Lehrkraft vor dem produktiven Einsatz vorzunehmen</strong>. Die Kennzeichnung orientiert sich an den Empfehlungen der Universität Hamburg zum Umgang mit generativer KI.</p>
+        <p><b>Datenschutzhinweis:</b> Im Gastmodus bleiben Antworten auf dem verwendeten Gerät (Browser-Speicher). Bei Anmeldung werden Nickname, Klassenzuordnung, Passwort-Hash und Lernfortschritt in Netlify Blobs gespeichert. Keine E-Mail-Adresse erforderlich. Vor dem Einsatz an der Schule sind die geltenden Datenschutzvorgaben und Einwilligungs-/Informationspflichten zu prüfen. <span>© Lernkurs Informatik · Stand November 2026</span></p>
+      </footer>
+    </div>
+  </div>
+
+  <dialog class="modal" id="auth-dialog" aria-labelledby="auth-title">
+    <button type="button" class="modal-x" data-close="auth-dialog" aria-label="Schließen">✕</button>
+    <div class="modal-icon">🔐</div><h2 id="auth-title">Fortschritt sichern</h2>
+    <p class="muted">Mit einem Konto können Sie den Kurs auf verschiedenen Geräten fortsetzen. Ohne Anmeldung ist der Kurs vollständig nutzbar.</p>
+    <div class="segmented" role="group" aria-label="Anmeldemodus"><button class="on" data-authmode="login">Anmelden</button><button data-authmode="register">Registrieren</button></div>
+    <form id="auth-form">
+      <label>Klasse <input name="klass" required minlength="2" maxlength="24" placeholder="z. B. BGW11A" autocomplete="organization"></label>
+      <label>Nickname <input name="nickname" required minlength="3" maxlength="24" placeholder="Selbstgewählter Nickname" autocomplete="username"></label>
+      <label>Passwort <input name="password" type="password" required minlength="8" maxlength="100" placeholder="Mindestens 8 Zeichen" autocomplete="current-password"></label>
+      <div id="register-fields" hidden><label>Rolle <select name="role" id="register-role"><option value="student">Schüler/in</option><option value="teacher">Lehrkraft</option></select></label><label id="teacher-code-row" hidden>Lehrercode (in Netlify festgelegt)<input name="teacherCode" type="password" placeholder="TEACHER_ACCESS_CODE" autocomplete="off"></label></div>
+      <label class="checkline"><input name="adopt" type="checkbox" checked> Gastantworten bei Anmeldung/Registrierung übernehmen (falls vorhanden)</label>
+      <p id="auth-message" class="form-message" aria-live="polite"></p>
+      <button type="submit" class="btn primary full" id="auth-submit">Anmelden</button>
+    </form>
+    <button class="link-btn centered" data-close="auth-dialog">Ohne Anmeldung fortfahren</button>
+  </dialog>
+
+  <dialog class="modal" id="password-dialog" aria-labelledby="password-title">
+    <button type="button" class="modal-x" data-close="password-dialog" aria-label="Schließen">✕</button>
+    <div class="modal-icon">🔑</div><h2 id="password-title">Passwort ändern</h2>
+    <p class="muted" id="password-help">Sie können Ihr Passwort jederzeit ändern.</p>
+    <form id="password-form"><label>Bisheriges bzw. vorläufiges Passwort<input name="oldPassword" type="password" minlength="8" required></label><label>Neues Passwort<input name="newPassword" type="password" minlength="8" maxlength="100" required></label><p id="password-message" class="form-message" aria-live="polite"></p><button class="btn primary full">Neues Passwort speichern</button></form>
+  </dialog>
+
+  <dialog class="modal solution-modal" id="solution-dialog" aria-labelledby="solution-title">
+    <div class="modal-icon">💡</div><h2 id="solution-title">Musterlösung anzeigen?</h2>
+    <p>Möchten Sie wirklich die Musterlösung sehen, oder wollen Sie es noch einmal selbst versuchen?</p>
+    <div class="dialog-actions"><button class="btn secondary" data-close="solution-dialog">Noch einmal versuchen</button><button class="btn primary" id="confirm-solution">Musterlösung anzeigen</button></div>
+  </dialog>
+
+  <dialog class="modal" id="confirm-dialog" aria-labelledby="confirm-title">
+    <div class="modal-icon">⚠️</div><h2 id="confirm-title">Bitte bestätigen</h2><p id="confirm-body"></p><div class="dialog-actions"><button class="btn secondary" data-close="confirm-dialog">Abbrechen</button><button class="btn primary" id="confirm-action">Bestätigen</button></div>
+  </dialog>
+
+  <div class="toast-area" id="toasts" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>

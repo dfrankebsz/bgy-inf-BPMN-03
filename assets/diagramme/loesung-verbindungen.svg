@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1840 555" width="1840" height="555"><defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#304565"/></marker>
+<marker id="msg" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M1,1 L8,4.5 L1,8" stroke="#8755B4" stroke-width="2" fill="none"/></marker>
+<marker id="dataarr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L7,4 L0,8" stroke="#887A4A" stroke-width="2" fill="none"/></marker></defs>
+<rect width="1840" height="555" fill="#F7F9FD"/>
+<rect x="30" y="38" width="1770" height="170" fill="#FFFFFF" stroke="#566B9A" stroke-width="3"/>
+<rect x="30" y="38" width="55" height="170" fill="#EBF0FD" stroke="#566B9A" stroke-width="2"/>
+<text transform="translate(64 123.0) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#283B65">Kundin</text>
+<rect x="30" y="247" width="1770" height="258" fill="#FFFFFF" stroke="#566B9A" stroke-width="3"/>
+<rect x="30" y="247" width="55" height="258" fill="#EBF0FD" stroke="#566B9A" stroke-width="2"/>
+<text transform="translate(64 376.0) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#283B65">CampusPrint</text>
+<rect x="85" y="247" width="1715" height="129" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 311.5) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Kundenservice</text>
+<rect x="85" y="376" width="1715" height="129" fill="none" stroke="#D7DEED" stroke-width="1.5"/>
+<text transform="translate(114 440.5) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#5A6B8B">Design</text>
+<path d="M 176,147 L 506,285" fill="none" stroke="#8755B4" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#msg)"/>
+<circle cx="176" cy="147" r="4.5" fill="white" stroke="#8755B4" stroke-width="2"/>
+<text x="341" y="208" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial,sans-serif" fill="#8755B4" stroke="white" stroke-width="4" paint-order="stroke">Bestellung</text>
+<path d="M 532,311 L 740,314" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 892,314 L 996,314 L 996,448 L 1100,448" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 1252,448 L 1515,442" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 127,121 L 150,121" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<path d="M 432,311 L 480,311" fill="none" stroke="#304565" stroke-width="2.6" stroke-linejoin="round"  marker-end="url(#arr)"/>
+<circle cx="176.0" cy="121.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="176.0" cy="121.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="161.0" y="111.0" width="30" height="20" fill="#275E8C" stroke="#275E8C" stroke-width="1.5"/>
+<path d="M 161.0 111.0 L 176.0 124.0 L 191.0 111.0" fill="none" stroke="white" stroke-width="2"/>
+<text x="176.0" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestellung senden</text>
+<circle cx="506.0" cy="311.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<circle cx="506.0" cy="311.0" r="17.0" fill="none" stroke="#245D94" stroke-width="2"/>
+<rect x="491.0" y="301.0" width="30" height="20" fill="white" stroke="#275E8C" stroke-width="2"/><path d="M 491.0 301.0 L 506.0 314.0 L 521.0 301.0" fill="none" stroke="#275E8C" stroke-width="2"/>
+<text x="506.0" y="356" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestellung empfangen</text>
+<rect x="740" y="282" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="816.0" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Bestellung erfassen</text>
+<rect x="1100" y="415" width="152" height="65" rx="13" fill="#F7FBFF" stroke="#3A658B" stroke-width="2.4"/>
+<text x="1176.0" y="452" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#2B3E60">Motiv prüfen</text>
+<circle cx="1541.0" cy="442.0" r="22.0" fill="#FFF1F4" stroke="#A43852" stroke-width="6"/>
+<text x="1541.0" y="487" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Prüfung beendet</text>
+<circle cx="101.0" cy="121.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<text x="101.0" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bestellung fertig</text>
+<circle cx="406.0" cy="311.0" r="22.0" fill="#E9F5FF" stroke="#245D94" stroke-width="3"/>
+<text x="406.0" y="356" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#31445F">Bearbeitung beginnt</text>
+</svg>
